@@ -3,7 +3,7 @@
 <p>It meets the global need for a quicker and more transparent payment system with low transaction fees. Online transactions such as travel booking and shopping have increased as the use of the internet increases, and e-commerce has become a significant part of the global market segment. Online buyers and sellers incur so much cost paying traditional banking systems commissions and hidden fees. Ariva.Finance is a new-generation payment gateway that offers solutions using blockchain technology.</p>
 <h2>Getting API Credentials</h2>
 <p>1. To start using Ariva.Finance gateway, you have to register a new account, by visiting the <a href="https://www.ariva.finance/signup">https://www.ariva.finance/signup</a> page.</p>
-<img src="https://raw.githubusercontent.com/ariva-coin/ariva-finance-integration/main/src/images/signup.jpg?token=GHSAT0AAAAAABZ2IBH7FOTDHOCJWR2G7TVMY2IP3EQ" />
+<img src="https://raw.githubusercontent.com/ariva-coin/ariva-finance-integration/main/src/images/signup.jpg?token=GHSAT0AAAAAABZ2IBH7RFWSLISFIMHTNTY4Y2IQBQA" />
 <hr/>
 <p>2. Then verify your email by, clicking on the link sent to your email address.</p>
 <hr/>
