@@ -1,0 +1,6 @@
+import btoa from "btoa";
+
+export function toBtoa(bin) {
+    var b64 = btoa(bin);
+    return b64;
+}

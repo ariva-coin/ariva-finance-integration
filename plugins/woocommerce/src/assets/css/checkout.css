@@ -1,0 +1,19 @@
+.wc-ariva-checkout.woocommerce-checkout {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wc-ariva-checkout.woocommerce-checkout #payment div.payment_box::before {
+    content: unset;
+}
+
+.wc-ariva-checkout.woocommerce-checkout #payment ul.payment_methods li image {
+    width: 175px;
+}
+
+.wc-ariva-checkout.woocommerce-checkout #payment ul.payment_methods li input {
+    margin: 0px;
+    border-radius: 5px;
+    width: 400px;
+    padding: 5px;
+}

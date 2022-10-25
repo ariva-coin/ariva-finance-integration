@@ -1,0 +1,25 @@
+<table>
+	<tbody>
+		<form action="https://gateway.ariva.finance/api/v1/post/confirm" method="POST">
+			<tr>
+				<td><label>Order ID</label></td>
+				<td><input name="orderid" id="orderid" value="" required /></td>
+			</tr>
+			<tr>
+				<td><label>key</label></td>
+				<td><input name="key" id="key" value="" required type="hidden1" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" /></td>
+			</tr>
+		</form>
+	</tbody>
+</table>
+<script>
+	const key = "b1k2xh-joekcq-c6so20-pccw7g";
+	const url = 'https://gateway.ariva.finance/api/v1/post/confirm';
+	const orderid = "";
+	// curl -X POST -F 'orderid=davidwalsh' -F 'key=b1k2xh-joekcq-c6so20-pccw7g' https://gateway.ariva.finance/api/v1/post/confirm
+	curl -X POST https://gateway.ariva.finance/api/v1/post/confirm -H "Content-Type: application/x-www-form-urlencoded" -d "key=b1k2xh-joekcq-c6so20-pccw7g&orderid=d6c2117f-c1ab-461f-bc9b-96e3c252ddf1" 
+</script>
+

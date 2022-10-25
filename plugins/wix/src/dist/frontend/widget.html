@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div class="container">
+		<form target="_top" action="https://testnet.ariva.finance/api/pay" method="POST">
+			<input id="amount" name="amount" class="bigInput" required readonly type="hidden" />
+			<input id="orderid" name="orderid" class="bigInput" required readnly type="hidden" />
+			<div>
+				<div>
+					<h3>Refund Wallet Address</h3>
+					<p>Please enter your wallet address.</p>
+				</div>
+				<div><input id="refund_wallet" name="refund_wallet" class="bigInput" required /></div>
+			</div>
+			<div>
+				<input id="random" name="random" required type="hidden" />
+				<input id="success_url" name="success_url" required type="hidden" />
+				<input id="fail_url" name="fail_url" required type="hidden" />
+				<input id="key" name="key" required type="hidden" />
+				<input id="hash" name="hash" required type="hidden" />
+			</div>
+			<div>
+				<div><input type="submit" value="Send" /></div>
+			</div>
+	</div>
+	<script type="text/javascript">
+		window.onmessage = (event) => {
+			if (event.data) {
+				const receivedData = event.data;
+				if (typeof receivedData === 'string') {
+					const receivedJSON = JSON.parse(receivedData);
+					const amount = receivedJSON.total
+					const orderId = receivedJSON.cartId;
+					const expire = 120;
+
+					document.getElementById('amount').value = amount;
+					document.getElementById('orderid').value = orderId;
+					document.getElementById('random').value = receivedJSON.random;
+					document.getElementById('success_url').value = receivedJSON.okUrl;
+					document.getElementById('fail_url').value = receivedJSON.failUrl;
+					document.getElementById('key').value = receivedJSON.apiKey;
+					document.getElementById('hash').value = receivedJSON.orderHash;
+				}
+			}
+		};
+	</script>
+	<style>
+		input[type=text],
+		select {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=submit] {
+			width: 100%;
+			background-color: #634b30;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #634b30;
+		}
+		div {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+		.container {
+			width: 760px;
+		}
+		.bigInput {
+			width: 100%;
+			padding: 12px 2px;
+		}
+	</style>
+</body>
+</html>
