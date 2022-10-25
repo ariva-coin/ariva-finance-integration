@@ -69,7 +69,3 @@ Start a project Visit Velo by Wix: <https://www.wix.com/velo>
 Add enough space between “Checkout” button and Ariva.Finance button.
 
 Note: This is an example implemetantion offered by Ariva.Finance, you can edit or specialize processes as you wish.
-
-## 5. Repository
-
-` `[mastiodotco/wix (github.com)](https://github.com/mastiodotco/wix)
