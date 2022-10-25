@@ -1,32 +1,10 @@
 # Crypto Payment with Ariva.Finance on Wix
 
-## 1.Ariva.Finance
-
-Ariva.Finance is a secure, fast, and easiest way to set up a payment gateway on websites and apps within minutes at a lower price. It meets the global need for a quicker and more transparent payment system with low transaction fees. Online transactions such as travel booking and shopping have increased as the use of the internet increases, and e-commerce has become a significant part of the global market segment. Online buyers and sellers incur so much cost paying traditional banking systems commissions and hidden fees. Ariva.Finance is a new generation payment gateway that offers solutions using blockchain technology.
-
-## 2. Ariva.Finance Wix Integration
+## Ariva.Finance Wix Integration
 
 Simple Way to Use Cryptocurrency Payments for Wix E-commerce website. Teaming up with Ariva.Finance is a simple and safe way to admit instant crypto payments for your businesses. If you have an online store and wishing to enable payments in cryptocurrency. You may simply install one of our plugins, if you find any difficulties during the process, do not hesitate to contact us.
 
-## 3. Getting API Credentials
-
-Register from Ariva.Finance Application Page: <https://www.ariva.finance/signup>
-
-## ![](images/Aspose.Words.2f7af80d-6ceb-459b-9c4f-66248c189d95.001.png)
-
-After registration verify your email, login and visit Gateway menu and “Create New Gateway”:
-
-![](images/Aspose.Words.2f7af80d-6ceb-459b-9c4f-66248c189d95.002.png)
-
-Give name for your site and enter your domain:
-
-![](images/Aspose.Words.2f7af80d-6ceb-459b-9c4f-66248c189d95.003.png)
-
-Your API credentials will appear on the pop-up, use this information for your e-commerce site. Please keep your “Secret” in a safe place, after closing this popup, it will disappear.
-
-![](images/Aspose.Words.2f7af80d-6ceb-459b-9c4f-66248c189d95.004.png)
-
-## 4. Integrations steps
+## Integrations steps
 
 Start a project Visit Velo by Wix: <https://www.wix.com/velo>
 
